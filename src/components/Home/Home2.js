@@ -2,11 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
@@ -17,31 +13,23 @@ function Home2() {
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
               {" "}
-              BUILDING <span className="purple">DIGITAL EXPERIENCES</span> WITH
-              PASSION{" "}
+              BUILDING <span className="purple">DIGITAL EXPERIENCES</span> WITH PASSION{" "}
             </h1>{" "}
             <p className="home-about-body">
               {" "}
-              Welcome! I’m a Full Stack Developer dedicated to crafting
-              high-performance web applications and deploying robust cloud
-              solutions.
+              Welcome! I’m a Full Stack Developer dedicated to crafting high-performance web
+              applications and deploying robust cloud solutions.
               <br /> <br /> From architecting scalable backend systems with{" "}
-              <b className="purple">Nest.js, Node.js, and MongoDB</b> to
-              perfecting UI/UX with <b className="purple">React.js</b> and{" "}
-              <b className="purple">Next.js</b>, I thrive on solving challenges
-              and bringing ideas to life. <br />
-              <br /> My experience spans{" "}
-              <b className="purple">CI/CD automation</b>,{" "}
-              <b className="purple">Docker & AWS</b> cloud setups, and AI-driven
-              features. I build tools and libraries that power product teams,
-              streamline deployment, and help transform ambitious concepts into
-              reality. <br />
-              <br /> Let’s innovate together—you’ll often find me experimenting
-              with{" "}
-              <b className="purple">
-                new frameworks, AI solutions, and efficient workflows
-              </b>{" "}
-              to push boundaries and deliver meaningful results.{" "}
+              <b className="purple">Nest.js, Node.js, and MongoDB</b> to perfecting UI/UX with{" "}
+              <b className="purple">React.js</b> and <b className="purple">Next.js</b>, I thrive on
+              solving challenges and bringing ideas to life. <br />
+              <br /> My experience spans <b className="purple">CI/CD automation</b>,{" "}
+              <b className="purple">Docker & AWS</b> cloud setups, and AI-driven features. I build
+              tools and libraries that power product teams, streamline deployment, and help
+              transform ambitious concepts into reality. <br />
+              <br /> Let’s innovate together—you’ll often find me experimenting with{" "}
+              <b className="purple">new frameworks, AI solutions, and efficient workflows</b> to
+              push boundaries and deliver meaningful results.{" "}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
